@@ -1,0 +1,36 @@
+{
+  "name": "printplanet/bus",
+  "description": "The Printplanet Bus package.",
+  "license": "MIT",
+  "homepage": "https://www.printplanet.de",
+  "support": {
+    "issues": "https://github.com/printplanet/framework/issues",
+    "source": "https://github.com/printplanet/framework"
+  },
+  "authors": [
+    {
+      "name": "Lutz Bicker",
+      "email": "bicker@printplanet.de"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "printplanet/contracts": "1.*",
+    "printplanet/pipeline": "1.*",
+    "printplanet/support": "1.*",
+  },
+  "autoload": {
+    "psr-4": {
+      "Printplanet\\Component\\Bus\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
