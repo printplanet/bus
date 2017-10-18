@@ -17,7 +17,8 @@
     "php": ">=5.3",
     "printplanet/contracts": "1.*",
     "printplanet/pipeline": "1.*",
-    "printplanet/support": "1.*",
+    "printplanet/container": "1.*",
+    "printplanet/queue": "1.*"
   },
   "autoload": {
     "psr-4": {
