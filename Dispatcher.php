@@ -1,14 +1,14 @@
 <?php
 
-namespace PP\Component\Bus;
+namespace Printplanet\Component\Bus;
 
 use Closure;
-use PP\Component\Queue\ShouldQueue;
-use PP\Component\Queue\Type\Queue;
+use Printplanet\Component\Queue\ShouldQueue;
+use Printplanet\Component\Queue\Type\Queue;
 use RuntimeException;
-use PP\Component\Pipeline\Pipeline;
-use PP\Component\Container\Container;
-use PP\Component\Contracts\Bus\QueueingDispatcher;
+use Printplanet\Component\Pipeline\Pipeline;
+use Printplanet\Component\Container\Container;
+use Printplanet\Component\Contracts\Bus\QueueingDispatcher;
 
 class Dispatcher implements QueueingDispatcher
 {
