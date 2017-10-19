@@ -3,9 +3,9 @@
 namespace Printplanet\Component\Bus;
 
 use Closure;
+use RuntimeException;
 use Printplanet\Component\Queue\ShouldQueue;
 use Printplanet\Component\Queue\Type\Queue;
-use RuntimeException;
 use Printplanet\Component\Pipeline\Pipeline;
 use Printplanet\Component\Container\Container;
 use Printplanet\Component\Contracts\Bus\QueueingDispatcher;
@@ -52,7 +52,6 @@ class Dispatcher implements QueueingDispatcher
      *
      * @param  Container  $container
      * @param  \Closure|null  $queueResolver
-     * @return void
      */
     public function __construct(Container $container, Closure $queueResolver = null)
     {
