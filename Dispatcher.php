@@ -12,6 +12,9 @@ use Printplanet\Component\Contracts\Bus\QueueingDispatcher;
 
 class Dispatcher implements QueueingDispatcher
 {
+
+    const CLASSNAME = __CLASS__;
+
     /**
      * The container implementation.
      *
